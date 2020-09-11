@@ -1,5 +1,5 @@
 - hosts: server
-  vers:
+  vars:
     image: putrapdp/docker-ansible:beta
   tasks:
     - name: install python-docker ubuntu
